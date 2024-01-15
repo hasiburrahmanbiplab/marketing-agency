@@ -1,0 +1,111 @@
+:root{
+    --font-family: 'Public Sans';
+    --blue:#3461FF;
+    --white:#ffffff;
+    --black:#000000;
+    --text-color:#575757;
+}
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+p{
+    padding: 0;
+    margin: 0;
+}
+ul, ol{
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    vertical-align: middle;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+.w-100{
+    width: 100%;
+}
+.btn-close:focus {
+	box-shadow: none;
+}
+/* common css End */
+/* navbar part start */
+.offcanvas-btn{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+    width: 100%;
+    height: auto;
+}
+.offcanvas-btn:hover{
+    background: transparent !important;
+}
+.offcanvas-btn .create{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    gap: 5px;
+    text-align: end;
+}
+.offcanvas-btn .one{
+    width: 30px;
+    height: 2px;
+    background: red;
+}
+.offcanvas-btn .two{
+    width: 25px;
+    height: 2px;
+    background: rgb(0, 236, 39);
+}
+.offcanvas-btn .three{
+    width: 20px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+}
+.offcanvas-body ul li{
+    display: inline-block;
+}
+.offcanvas-body .main-nav li .nav-link{
+    display: inline-block;
+}
+.main-navbar .main-nav .nav-link{
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    color: var(--black);
+    border-bottom: 1px solid transparent;
+    padding: 0;
+}
+.main-navbar .main-nav .nav-link:hover{
+    color: var(--blue);
+    border-bottom: 1px solid var(--blue);
+}
+.main-navbar .main-nav .active{
+    color: var(--blue);
+}
+.navbar-btn a{
+    font-size: 16px;
+    font-family: var(--font-family);
+    width: 120px;
+    height: 40px;
+    background: var(--blue);
+}
+.navbar-btn a:hover{
+    box-shadow: 0 0 10px var(--blue);
+}
+/* navbar part End */
