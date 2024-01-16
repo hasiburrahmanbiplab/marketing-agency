@@ -159,7 +159,7 @@ img{
 }
 .companies-container .card .companies-logo{
     max-width: 100px;
-    height: 45px;
+    height: auto;
     margin: 0 auto;
 }
 .companies-container .card .companies-logo img{
@@ -169,8 +169,7 @@ img{
 /* companies part End */
 /* commitment part start */
 .commitment-counter{
-    max-width: 500px;
-    margin: 0 auto;
+    max-width: 483px;
 }
 .commitment-counter .card .card-body span{
     font-size: 30px;
@@ -179,6 +178,7 @@ img{
     color: var(--black);
     display: inline-block;
 }
+
 .commitment-counter .card .card-body p{
     font-size: 14px;
     font-family: var(--font-family);
@@ -211,3 +211,5 @@ img{
     transition: ease-in-out 0.2s;
 }
 /* commitment part End */
+/* how-work part start */
+/* how-work part End */
