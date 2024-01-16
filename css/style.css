@@ -45,7 +45,7 @@ img{
 	box-shadow: none;
 }
 .container{
-    background: rgb(255, 255, 255);
+    background: rgb(70, 68, 68);
 }
 /* common css End */
 /* navbar part start */
@@ -212,4 +212,100 @@ img{
 }
 /* commitment part End */
 /* how-work part start */
+.work-image img{
+    transform: rotate(-1deg);
+}
+.work-text h2{
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+.work-text p{
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.work-item .inner-icon{
+    width: 55px;
+    height: 55px;
+    background: var(--blue);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.work-icon{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.work-item .inner-icon img{
+    width: 30px;
+    height: 30px;
+}
+.work-item .inner-text{
+    width: 85%;
+}
+.work-item .inner-text h5{
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+.work-item .inner-text p{
+    font-size: 14px;
+    font-family: var(--font-family);
+}
 /* how-work part End */
+/* our part start */
+.ourwork-heading h2{
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+.ourwork-heading span{
+    font-size: 14px;
+    font-family: var(--font-family);
+}
+.ourwork-item .card-body h5{
+    font-size: 20px;
+    font-family: var(--font-family);
+}
+.ourwork-btn a{
+    width: 120px;
+    height: 35px;
+    background: var(--blue);
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.ourwork-btn a:hover{
+    box-shadow: 0 0 10px var(--blue);
+}
+/* our part End */
+/* cta banner part start */
+.CTA-heading h2{
+    max-width: 300px;
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+.CTA-content{
+    max-width: 700px;
+    margin: 0 auto;
+    background-image: linear-gradient(-90deg ,#3461FF, #8399E9);
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.CTA-content .part-two{
+    max-width: 400px;
+}
+.CTA-content .part-two p{
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.CTA-btn a{
+    width: 110px;
+    height: 35px;
+    background: var(--white);
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.CTA-btn a:hover{
+    box-shadow: 0 0 10px var(--white);
+}
+/* cta banner part End */

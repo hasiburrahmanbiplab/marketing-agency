@@ -61,6 +61,10 @@
     .commitment-text{
         margin: 0 auto;
     }
+    /* how it work */
+    .work-icon{
+        margin: 0;
+    }
 }
 @media (max-width:575px) {
     .banner-text {
@@ -68,6 +72,11 @@
     }
     .banner-text h1 {
         font-size: 50px;
+    }
+    /* companies part start */
+    .companies-header h3 {
+        font-size: 24px;
+
     }
     /* commitment part start */
     .commitment-counter{
@@ -80,5 +89,9 @@
      }
      .commitment-counter .card .card-body{
         padding: 20px 0;
+    }
+    /* how work */
+    .work-icon{
+        margin: 0;
     }
 }
