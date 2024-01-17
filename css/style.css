@@ -309,3 +309,130 @@ img{
     box-shadow: 0 0 10px var(--white);
 }
 /* cta banner part End */
+/* team part start */
+.team-text{
+    max-width: 500px;
+    margin:  0 auto;
+}
+.team-text h2{
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+.team-text p{
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+.team-btn a{
+    width: 130px;
+    height: 40px;
+    background: var(--blue);
+    font-size: 16px;
+    font-family: var(--font-family);
+
+}
+.team-btn a:hover{
+    box-shadow: 0 0 10px var(--blue);
+}
+/* team part End */
+/* about part start */
+.about-header{
+    max-width: 600px;
+}
+.about-header h2{
+    width: 100%;
+    font-size: 40px;
+    font-family: var(--font-family);
+}
+.about-slider .card{
+    margin: 0 15px;
+    border: 0;
+    border-radius: 0;
+}
+.about-item{
+    background: rgb(255, 255, 255);
+    padding: 15px ;
+    border-radius: 10px;
+    transition: linear 0.3s;
+}
+.about-slider{
+    position: relative;
+}
+.about-slider .prev-arrow{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    top: -70px;
+    right: 60px;
+    z-index: 1000;
+    color: var(--text-color);
+}
+.about-slider .next-arrow{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    top:-70px;
+    right: 0;
+    z-index: 1000;
+    color: var(--text-color);
+}
+.about-slider .next-arrow:hover{
+     background: var(--blue);
+     color: var(--white);
+     box-shadow: 0 0 10px var(--blue);
+}
+.about-slider .prev-arrow:hover{
+     background: var(--blue);
+     color: var(--white);
+     box-shadow: 0 0 10px var(--blue);
+}
+.about-slider .card .about-item:hover{
+    background: #3461FF;
+    transition: linear 0.3s;
+}
+.about-slider .card .about-item:hover h6{
+   color: var(--white);
+   transition: linear 0.3s;
+}
+.about-slider .card .about-item:hover p{
+   color: var(--white);
+   transition: linear 0.3s;
+}
+.about-item .inner-item .img{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+.about-item .inner-item .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-item .inner-item .text h6{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--black);
+    margin: 0;
+    text-transform: capitalize;
+    transition: linear 0.3s;
+}
+.about-item .inner-item .text p{
+    font-size: 12px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: var(--black);
+    text-transform: capitalize;
+    transition: linear 0.3s;
+}
+.about-item .card-body p{
+    font-size: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    color: var(--black);
+    transition: linear 0.3s;
+}
+/* about part End */
